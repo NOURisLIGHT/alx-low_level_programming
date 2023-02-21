@@ -18,6 +18,8 @@ while (i > 97)
 printf("%d", i);
 if (i != 98)
 printf(", ");
+else
+printf(" ");
 i--;
 }
 }
@@ -28,6 +30,8 @@ while (i < 99)
 printf("%d", i);
 if (i != 98)
 printf(", ");
+else
+printf(" ");
 i++;
 } 
 }
