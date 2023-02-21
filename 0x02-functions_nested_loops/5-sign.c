@@ -3,9 +3,9 @@
 #include <ctype.h>
 
 /**
- *print_sign - tells you the sign of input int
- *@n: the int we will see its sign 
- *Return: 1 if n is +ve, 0 if n = 0. Else return -1
+ * print_sign - tells you the sign of input int
+ * @n: The int we will see its sign.
+ * Return: 1 if n is +ve, 0 if n = 0. Else return -1
  */
 int print_sign(int n)
 {
