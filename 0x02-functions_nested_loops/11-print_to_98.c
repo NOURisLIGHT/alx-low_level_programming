@@ -26,8 +26,7 @@ i--;
 else if (i <= 98)
 {
 while (i < 99)
-{
-printf("%d", i);
+{ printf("%d", i);
 if (i != 98)
 printf(", ");
 else
@@ -35,5 +34,5 @@ printf(" ");
 i++;
 } 
 }
-fprintf(stderr,"");
+fprintf(stderr);
 }
