@@ -35,5 +35,5 @@ printf(" ");
 i++;
 } 
 }
-fprintf(stderr,"This is message 2\n");
+fprintf(stderr,"[Anything]");
 }
