@@ -7,7 +7,11 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int main()
+/**
+ * main function
+ * return 0 on success
+ */
+int main(void)
 {
 _putchar('_');
 _putchar('p');
