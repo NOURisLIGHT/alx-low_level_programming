@@ -35,5 +35,5 @@ printf(" ");
 i++;
 } 
 }
-fprintf(stderr,"[Anything]");
+fprintf(stderr,"");
 }
