@@ -4,7 +4,6 @@
 
 /**
  * _islower - returns 1 or 0 based on the letter
- * 
  * @c: the letter we will check
  *
  * Return: 1 if c is capital. else 0
