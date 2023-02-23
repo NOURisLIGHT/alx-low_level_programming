@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * print_most_numbers - checks to see if c is is digi
+ * print_most_numbers - checks to see if c is is digit
  * Return: nothing
  */
 void print_most_numbers(void)
