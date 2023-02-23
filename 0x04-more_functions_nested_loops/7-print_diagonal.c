@@ -13,16 +13,14 @@ if (n > 0)
 int i = 0;
 while (i < n)
 {
-for (int j = 0; j < i; j++)
+int j = 0;
+while (j < i)
 {
 _putchar(' ');
+j++;
 }
 _putchar('\\');
 _putchar('\n');
 i++;
 }
 }
-else
-_putchar('\n');
-}
-
