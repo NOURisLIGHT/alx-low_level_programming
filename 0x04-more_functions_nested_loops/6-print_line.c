@@ -3,6 +3,7 @@
 #include "main.h"
 /**
  * print_line - checks to see if c is is digit
+ * @n: length of line
  * Return: always 0
  */
 void print_line(int n)
@@ -17,5 +18,5 @@ putchar('\n');
 }
 else
 putchar('\n');
-return (0);
 }
+
