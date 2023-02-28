@@ -10,14 +10,13 @@
  */
 void print_rev(char *s)
 {
-int i = 0, n = strlen(s);
-while (i < n / 2)
+int i, n = strlen(s);
+for (i = 0; i < n / 2; i++)
 { 
 char l;
 l = s[i];
 s[i] = s[n - i - 1];
 s[n - i - 1] = l;
-i++;
 }
 puts(s);
 }
