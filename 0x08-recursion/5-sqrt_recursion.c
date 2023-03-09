@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 #include "main.h"
 /**
  * _sqrt_recursion - calculate the sqrt of n
@@ -8,14 +7,13 @@
  */
 int _sqrt_recursion(int n)
 {
-if (n < 0)
-return (-1);
-else
+int i;
+for (i = 0; i < n / 2; i++)
 {
-int x = sqrt(n);
-if (x * x != n)
-return (-1);
-else
-return (sqrt(n));
+if (n == i * i)
+{
+return (i);
 }
+}
+return (-1);
 }
