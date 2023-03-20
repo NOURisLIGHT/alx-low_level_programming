@@ -6,7 +6,7 @@
  * create_array - makes array of chars
  * @size: size of memory to book
  * @c: char to fill the array
- * Return: Null if invalid, pointer to array if valid
+ * Return: ssdjklsjdflk
  */
 char *create_array(unsigned int size, char c)
 {
@@ -14,7 +14,7 @@ if (size == 0)
 return (NULL);
 
 char *A = (char *)malloc(size);
-int i;
+unsigned int i;
 for (i = 0; i < size; i++)
 A[i] = c;
 return (A);
