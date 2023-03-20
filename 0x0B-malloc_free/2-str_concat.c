@@ -28,14 +28,14 @@ ci++;
 concat = malloc(sizeof(char) * (i + ci + 1));
 if (concat == NULL)
 return (NULL);
-i = ci = 0; 
+i = ci = 0;
 while (s1[i] != '\0')
 {
 concat[i] = s1[i];
 i++;
 }
 while (s2[ci] != '\0')
-{ 
+{
 concat[i] = s2[ci];
 ci++;
 i++;
