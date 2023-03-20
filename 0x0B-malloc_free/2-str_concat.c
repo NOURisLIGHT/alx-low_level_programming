@@ -20,13 +20,12 @@ s2 = "";
 
 i = ci = 0;
 
-while (i != '\0')   // Get size of s1
+while (i != '\0')
 i++;
-while (ci != '\0')  // get size of s2
+while (ci != '\0')
 ci++;
 
-concat = malloc(sizeof(char) * (i + ci + 1)); // reserve a memory for s1 + s2 + 1
-// 1 for null terminated char \0
+concat = malloc(sizeof(char) * (i + ci + 1));
 if (concat == NULL)
 return (NULL);
 i = ci = 0; 
