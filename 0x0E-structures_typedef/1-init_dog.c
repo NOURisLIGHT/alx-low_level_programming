@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-
 /**
  * init_dog - initializes a struct dog
  * @d: ptr
