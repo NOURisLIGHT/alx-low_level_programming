@@ -1,0 +1,26 @@
+#include <stdarg.h>
+#include <cstdio>
+#include <iostream>
+#include <bits/stdc++.h>
+#include "variadic_functions.h"
+
+/**
+ * sum_them_all - function to sum all input args
+ * @n: number of args
+ */
+int sum_them_all(const unsigned int n, ...)
+{
+if (n == 0)
+return (0);
+va_list ap;
+int i, sum = 0;
+va_start(ap, n);
+
+for (int i = 0; i < n; i++)
+{
+sum += va_arg(ap, int);
+}
+
+va_end(ap);
+return (sum);
+}
