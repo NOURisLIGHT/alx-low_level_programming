@@ -25,11 +25,10 @@ printf("\n");
 }
 else
 {
-if (i != n - 1)
-printf("");
-else
+if (i == n - 1)
 printf("\n");
 }
 }
 va_end(ap);
 }
+
